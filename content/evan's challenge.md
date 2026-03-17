@@ -1,0 +1,4 @@
+- use linux namespaces and cgroups to limit what each user can see (hidepid=2 on /proc)
+- mount /proc with hidepid=2 in /etc/fstab
+- enable appArmor or SElinux profiles per user account 
+- 
