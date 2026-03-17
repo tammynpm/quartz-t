@@ -1,2 +1,0 @@
-- what is double NAT? homelab might be behind 2 layers of NAT ? 
-- tailscale can use IPv6 for direct connections, if it is disabled on 1 side, 
