@@ -1,4 +1,4 @@
-what is block cipher? CBC?
+%% what is block cipher? CBC?
 ideal cipher model assumes a block cipher behaves like a perfect random permutation for every key
 
 for each key k, the encryption function E_k: {0,1}^n --> {0,1}^n is a random permutation over n-bit blocks. 
@@ -22,3 +22,9 @@ modeling a block cipher as a secure PRF is weaker: the cipher is assumed to beha
 
 a real block cipher such as AES is not an ideal cipher, since it has a fixed deterministic structure and key schedule. AES is designed to behave like a pseudorandom permutation meaning it should be computationally indistinguishable from a random permutation for practical adversaries. 
 
+ %%
+
+how is an ideal cipher different from the ROM (random oracle models)?
+
+
+to read: https://cs.nyu.edu/~dodis/ps/ic-ro.pdf 
