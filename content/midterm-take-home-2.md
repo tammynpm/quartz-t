@@ -1,3 +1,4 @@
+#private 
 2a. Line of sight delay between the sender and receiver: $\text{delay = }\frac{1.2 \times 10^3}{3\times 10^{8}}=4\times10^{6}=4\mu \text{ sec }$
 2b. The minimum coherence time. First we compute the arrival times for all paths: 
 

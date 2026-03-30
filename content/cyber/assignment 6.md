@@ -1,3 +1,7 @@
+---
+tags:
+  - private
+---
 ## part 1
 1. Communication protocol: message format + how requests/responses flow (brief)
 	- message format: json string with the fields like `type, cmd, req_id, payload`
