@@ -1,4 +1,7 @@
-#private 
+---
+draft: true
+tag: [private, networkings]
+---
 1a.
 $P(0 \text{ arrivals in time } \Delta t )= e^{-\lambda \Delta t}$
 $G$ is the average number of transmission attempts per slot => arrivate rate per mini slot is $G/4$. We know that collision happens when 2 nodes start within the same 4 mini-slots.

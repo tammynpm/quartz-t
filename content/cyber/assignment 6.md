@@ -1,6 +1,7 @@
 ---
 tags:
   - private
+draft: true
 ---
 ## part 1
 1. Communication protocol: message format + how requests/responses flow (brief)

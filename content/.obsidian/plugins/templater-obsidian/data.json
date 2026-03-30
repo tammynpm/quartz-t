@@ -27,6 +27,10 @@
       "template": "private/templates/template.md"
     },
     {
+      "folder": "cyber",
+      "template": "private/templates/template.md"
+    },
+    {
       "folder": "",
       "template": ""
     }
