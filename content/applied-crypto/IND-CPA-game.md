@@ -1,4 +1,7 @@
-#applied-crypto #crypto 
+---
+draft: false
+tag: [applied-crypto, crypto]
+---
 what is it? indistinguishability under chosen-plaintext attacks 
 
 ## LR oracle 
