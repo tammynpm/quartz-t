@@ -24,3 +24,5 @@ screenshots 80% points
 
 ![[Pasted image 20260318175351.png]]
 
+
+dns issue 

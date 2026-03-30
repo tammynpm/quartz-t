@@ -2,69 +2,51 @@
 <rss version="2.0">
     <channel>
       <title>Quartz 4</title>
-      <link>https://quartz.jzhao.xyz</link>
+      <link>https://quartz-t.pages.dev</link>
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Untitled 2</title>
-    <link>https://quartz.jzhao.xyz/Untitled-2</link>
-    <guid>https://quartz.jzhao.xyz/Untitled-2</guid>
-    <description><![CDATA[ notes from the reading instruction pointer relative addressing or pc-relative addressing this techniques calculates the target memory address by adding an offset to the current instruction pointer register (IP/PC) use cases primarily used for jump and branch instructions to a more relative distance ... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:08:24 GMT</pubDate>
-  </item><item>
-    <title>IND-CPA-game</title>
-    <link>https://quartz.jzhao.xyz/applied-crypto/IND-CPA-game</link>
-    <guid>https://quartz.jzhao.xyz/applied-crypto/IND-CPA-game</guid>
-    <description><![CDATA[ applied-crypto crypto what is it? indistinguishability under chosen-plaintext attacks LR oracle the experiment: adversary can query encryption oracle E_K(\cdot) adversary sends 2 equal length messages M_{0}, M_1 challenger picks random b challenger returns C*=E_K(M_b) adversary outputs guess b&#039;... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:08:24 GMT</pubDate>
-  </item><item>
-    <title>detachment personality disorder</title>
-    <link>https://quartz.jzhao.xyz/health/detachment-personality-disorder</link>
-    <guid>https://quartz.jzhao.xyz/health/detachment-personality-disorder</guid>
-    <description><![CDATA[ in what way did this affect my life?. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:08:24 GMT</pubDate>
-  </item><item>
-    <title>Home</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Home Welcome to my notes. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:08:24 GMT</pubDate>
-  </item><item>
-    <title>RIP routing information protocol</title>
-    <link>https://quartz.jzhao.xyz/RIP-routing-information-protocol</link>
-    <guid>https://quartz.jzhao.xyz/RIP-routing-information-protocol</guid>
-    <description><![CDATA[ classful protocol, replaced by classless protocol router have databases and at the core: routers can exchage routing infromation automatically each time it connects to other route, the router tells it the better/shorter way to rach the destination, so it saves that information in its db. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 06:26:12 GMT</pubDate>
-  </item><item>
-    <title>Untitled 1</title>
-    <link>https://quartz.jzhao.xyz/Untitled-1</link>
-    <guid>https://quartz.jzhao.xyz/Untitled-1</guid>
-    <description><![CDATA[ Answer the following questions: There is an overwhelming reason why this attack won’t work on your current ARM system as-is. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 06:26:12 GMT</pubDate>
-  </item><item>
-    <title>Untitled 3</title>
-    <link>https://quartz.jzhao.xyz/Untitled-3</link>
-    <guid>https://quartz.jzhao.xyz/Untitled-3</guid>
-    <description><![CDATA[  fundamentally all system have weaknesses stuxnet was expensive to build capstone: demonstrate end-end exploit, complete with command and control and execution 3 step understand the systems you are attacking understand the vulnerabilities that exist determine how to achieve the effect / execute the ... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 06:26:12 GMT</pubDate>
-  </item><item>
-    <title>evan&#039;s challenge</title>
-    <link>https://quartz.jzhao.xyz/evan's-challenge</link>
-    <guid>https://quartz.jzhao.xyz/evan's-challenge</guid>
-    <description><![CDATA[  use linux namespaces and cgroups to limit what each user can see (hidepid=2 on /proc) mount /proc with hidepid=2 in /etc/fstab enable appArmor or SElinux profiles per user account . ]]></description>
-    <pubDate>Fri, 13 Mar 2026 06:26:12 GMT</pubDate>
+    <title>AES, PRF</title>
+    <link>https://quartz-t.pages.dev/applied-crypto/AES,-PRF</link>
+    <guid>https://quartz-t.pages.dev/applied-crypto/AES,-PRF</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 17 Mar 2026 07:47:21 GMT</pubDate>
   </item><item>
     <title>CTR$ mode</title>
-    <link>https://quartz.jzhao.xyz/CTR$-mode</link>
-    <guid>https://quartz.jzhao.xyz/CTR$-mode</guid>
+    <link>https://quartz-t.pages.dev/applied-crypto/CTR$-mode</link>
+    <guid>https://quartz-t.pages.dev/applied-crypto/CTR$-mode</guid>
     <description><![CDATA[ counter mode the input to AES are not necessary distinct first homework: you add index to message, input used for AES during encryption not necessarily distinct . ]]></description>
-    <pubDate>Sun, 08 Mar 2026 01:56:54 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 07:47:21 GMT</pubDate>
   </item><item>
-    <title>Firmware-tear-chall</title>
-    <link>https://quartz.jzhao.xyz/Firmware-tear-chall</link>
-    <guid>https://quartz.jzhao.xyz/Firmware-tear-chall</guid>
-    <description><![CDATA[  the entropy is quite high, means this is almost encrypted the squashFS starts at offset 0x100000 decimal 1048576 size: 4931098 bytes questions what is the inode count for? [neptune@arch praetorian]$ binwalk -e firmware [2026-02-25T22:11:21Z ERROR binwalk::extractors::common] Failed to execute comma... ]]></description>
-    <pubDate>Sun, 08 Mar 2026 01:56:54 GMT</pubDate>
+    <title>crypto</title>
+    <link>https://quartz-t.pages.dev/applied-crypto/crypto</link>
+    <guid>https://quartz-t.pages.dev/applied-crypto/crypto</guid>
+    <description><![CDATA[ PRF?. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 07:47:21 GMT</pubDate>
+  </item><item>
+    <title>what the hell is ideal cipher model?</title>
+    <link>https://quartz-t.pages.dev/applied-crypto/what-the-hell-is-ideal-cipher-model</link>
+    <guid>https://quartz-t.pages.dev/applied-crypto/what-the-hell-is-ideal-cipher-model</guid>
+    <description><![CDATA[ what is block cipher? CBC? ideal cipher model assumes a block cipher behaves like a perfect random permutation for every key for each key k, the encryption function E_k: {0,1}^n ⇒ {0,1}^n is a random permutation over n-bit blocks. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 07:47:21 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://quartz-t.pages.dev/</link>
+    <guid>https://quartz-t.pages.dev/</guid>
+    <description><![CDATA[ Home Welcome to my notes. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 07:47:21 GMT</pubDate>
+  </item><item>
+    <title>IND-CPA-game</title>
+    <link>https://quartz-t.pages.dev/applied-crypto/IND-CPA-game</link>
+    <guid>https://quartz-t.pages.dev/applied-crypto/IND-CPA-game</guid>
+    <description><![CDATA[ applied-crypto crypto what is it? indistinguishability under chosen-plaintext attacks LR oracle the experiment: adversary can query encryption oracle E_K(\cdot) adversary sends 2 equal length messages M_{0}, M_1 challenger picks random b challenger returns C*=E_K(M_b) adversary outputs guess b&#039;... ]]></description>
+    <pubDate>Tue, 17 Mar 2026 06:10:28 GMT</pubDate>
+  </item><item>
+    <title>git-stash</title>
+    <link>https://quartz-t.pages.dev/devops/git-stash</link>
+    <guid>https://quartz-t.pages.dev/devops/git-stash</guid>
+    <description><![CDATA[ the wonderful git stash to merge the local and remote version, you can git stash, pull, then reapply. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 06:10:28 GMT</pubDate>
   </item>
     </channel>
   </rss>

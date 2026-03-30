@@ -101,3 +101,63 @@ config remains `/etc/teleport/teleport.yaml`
 
 users still exist but existing login sessions (certs) may expire or break
 
+
+**create join tokne**
+`sudo tctl tokens add --type=node --ttl=1h`
+
+
+install teleport agent on nodes: 
+
+
+config /etc/teleport.yaml
+
+
+tsh login 
+`tsh login --auth=local --proxy=localhost:443 --user=tamnguyen290204`
+
+
+ssh agent is not running
+SSH_AUTH_PSOCK points to a bad socket 
+
+
+tsh stores certs under ~/.tsh/...
+by default it uses ssh-agent integration 
+you can disable local agent use with the --no-use-local-ssh-agent flag or set 
+
+## ssh into a node with join token (already joined) 
+tsh ssh user@node-name
+
+# teleport auth + porxy 
+
+
+
+![[Pasted image 20260320221855.png]]
+
+service cannot compleete tls handshake with the proxy (teleport service is running, config looks mostly correct, but node is failing to join cluster)
+
+if this is prod, we have a domain and valid cert, so dns works 
+should not skip TLS 
+
+on service-nodes:
+sudo nano /etc/hosts
+add 136.115.29.105 teleport.ccdc.local
+
+edit /etc/teleport.yaml on public-node
+proxy-service:
+	enabled: true
+	web_listen_addr: 0.0.0.0"443
+	public_dr: teleport.ccdc.local:443
+
+sudo systemctl restart teleport
+
+on service-node
+update agent config
+proxy_server: teleport.ccdc.local:443
+
+sudo systemctl restart teleport
+
+
+tls validation = encryption + identity verification 
+control plane = teleport uath + proxy server (public-node0 
+)
+
