@@ -31,8 +31,16 @@
       "template": "private/templates/template.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "postgresql",
+      "template": "private/templates/template.md"
+    },
+    {
+      "folder": "pwn",
+      "template": "private/templates/template.md"
+    },
+    {
+      "folder": "machine-learning",
+      "template": "private/templates/template.md"
     }
   ],
   "enable_file_templates": false,

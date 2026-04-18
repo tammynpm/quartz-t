@@ -6,5 +6,7 @@
   "notebook-navigator",
   "quartz-syncer",
   "obsidian-tagfolder",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-style-settings",
+  "colored-text"
 ]

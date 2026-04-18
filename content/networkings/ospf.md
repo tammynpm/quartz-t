@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: ospf
 tags: []
 draft: true
 date: 2026-03-30
@@ -50,4 +50,6 @@ display the lsdb entries at router 1 each time configure one of the other router
 ### lsdb --> routing table 
 
 core of ospf: lsdb --> full topology --> run spf (dijkstra) --> install routes
+
+
 

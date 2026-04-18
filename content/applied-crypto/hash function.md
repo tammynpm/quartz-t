@@ -8,6 +8,11 @@ hash function breaks more often than block ciphers.
 
 collisions happen because of the pingeon principle but hard to find 
 
+
+### one way 
+- feistel network 
+- trap-door function 
+- merkle-damgard hash function 
 ### formalism 
 
 
@@ -119,3 +124,17 @@ proof: provide an efficient algorithm to find a collision. let $\cal{A}$ be an a
 - describe how to select x1, how to select x2
 - show that $x1 \neq x2$ and $H(x1) = H(x2)$ 
 - since this algorithm runs in polynomial time, H is not CR. Q.E.D
+
+
+
+### HMAC in practice
+- HMAC-MD5 remained unbroken after MD5 was broken
+- HMAC is efficient and unbroken
+- CBC-MAC was not widely deployed because it is too slow
+- --> instead practitioneres used heuristic constructions
+
+
+
+*is hash function essentailly compression function ????????????????????????????????*
+
+

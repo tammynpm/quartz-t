@@ -33,3 +33,29 @@ all hash function has collisions (?) but whether or not you can find the collisi
 
 
 
+---
+CK: second preimag eressistantt
+
+one message is chosen randomly  for the adversary. it has to find 
+
+universal hashing: 
+
+all sha hash functions 
+
+this has been a dominant way to build hash functions: 
+
+Blockcipher to Compression function via Davies Meyer transform 
+
+once you have a compressed function, turn it to a hash function with Merkle Damgard
+
+
+sha3 did not use merkle damguard. sha256 is merkle damgard
+
+in the transform compression -> hash fucntion:
+the IV starts at 0 for merkle damgard. the IV and chaining variable n bits. 
+
+the blockcipher ahs large parameter
+which determines the vsalue of b nad n in the compression function
+
+
+if you can find collision in dam vangard hash, cna find collision in compression (?) 
