@@ -1,5 +1,5 @@
 ---
-title: hash function
+title: hash-functions
 tags: []
 draft: false
 date: 2026-03-26

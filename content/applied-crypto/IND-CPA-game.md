@@ -2,10 +2,26 @@
 draft: false
 tag: [applied-crypto, crypto]
 ---
-what is it? indistinguishability under chosen-plaintext attacks 
+indistinguishability under chosen-plaintext attacks 
+
+Indistinguishability means that when two plaintexts of equal length are encrypted under the same key, the resulting ciphertexts are computationally indistinguishable. In other words, an attacker should not be able to tell which ciphertext corresponds to which plaintext, even with chosen plaintext access.
+
+in plain terms, an attacker cannot distinguish between the encryptions of 2 different messages even if they can choose the plaintexts to be encrypted 
+what does this says about the encryption? --> the encryption must be probabilistic (randomized) -> same plaintext encrypts to different ciphertexts each time.
+
+aka semantic security (??? needs verify)
+### why IND-CPA matters?
+- basic requirement weaker than IND-CCA2 (chosen-ciphertext attack)
+- protects against an attacker who can also ask for the decryption of modified ciphertexts
+- ensures an adverssary cannot gain any info about a message from **its ciphertext** --> confidentiality even when the adversary can influence the encryption process
+
+
+### the game
+- adversary chooses 2 messages M0, M1 sends to a challneger
+- challenger flips a fair coin > encrypts on e M_b > sends ciphertext back
+- adversary wins if they can guess which message was encrypted with a probability higher than 50% (random guessing) 
 
 ## LR oracle 
-
 
 the experiment:
 1. adversary can query encryption oracle $E_K(\cdot)$
