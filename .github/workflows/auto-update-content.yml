@@ -15,6 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: commit and push content
+        id: push
         run: | 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -22,6 +23,18 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "chore: daily content update $(date -u +'%Y-%m-%d %H:%M:%S EDT')"
             git push 
-          else 
+            echo "pushed=true" >> $GITHUB_OUTPUT
+          else
             echo "no changes in content folder"
-          fi 
+            echo "pushed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: notify ntfy on success
+        if: steps.push.outputs.pushed=='true'
+        run: | 
+          curl -d "content updated and deployed at $(date -u +'%Y-%m-%d %H:%M:%S EDT')" ntfy.sh/quartz-updates
+
+      - name: notify ntfy on no changes
+        if steps.push.outputs.pushed=='false'
+        run: | 
+          curl -d "No changes to commit at $(date -u +'%Y-%m-%d %H:%M:%S EDT')" ntfy.sh/quartz-updates
