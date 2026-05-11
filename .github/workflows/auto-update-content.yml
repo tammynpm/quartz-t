@@ -35,6 +35,6 @@ jobs:
           curl -d "content updated and deployed at $(date -u +'%Y-%m-%d %H:%M:%S EDT')" ntfy.sh/quartz-updates
 
       - name: notify ntfy on no changes
-        if steps.push.outputs.pushed=='false'
+        if: steps.push.outputs.pushed=='false'
         run: | 
           curl -d "No changes to commit at $(date -u +'%Y-%m-%d %H:%M:%S EDT')" ntfy.sh/quartz-updates
