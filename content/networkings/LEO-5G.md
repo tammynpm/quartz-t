@@ -1,6 +1,6 @@
 ---
 title: LEO-5G
-tags: [5G, LEO]
+tags: [5G, LEO,rf]
 draft: false
 date: 2026-04-25
 ---
@@ -37,3 +37,35 @@ https://www.qorvo.com/design-hub/blog/how-modern-leo-satellite-technologies-are-
 
 https://www.qorvo.com/design-hub/blog/advancing-communication-the-role-of-leo-satellites-in-the-wireless-expansion
 
+
+
+[satellite networks](satellite-networks.md) 
+
+
+
+data sensing in space
+- satellites collect more data than their downlink 
+- can't send down everything they sensing
+- have to compute data -> then send down 
+
+GEO: 
+- geosynchronous: sationary with respoect to ground
+- 800ms RTT 
+- 35768 km above earth 
+
+leo: 550-1200km above earth 
+- within line of sight of ground station for 5-15mins
+- 30msec RTT 
+- inter-satellite links (ISL) instead of up-down bed?????
+
+
+
+
+#### bluetooth cannot do storage
+
+
+
+how do governments jam signals from LEO to their 
+
+
+is there any protocol to communicate btw satellites, like in 

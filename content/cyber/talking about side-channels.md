@@ -6,5 +6,5 @@ date: 2026-04-15
 ---
 This is part of the lecture by Adm Woodbury for CS564-Cyber Effects
 
-[test](AES.md)
+[test](cyber/AES.md)
 

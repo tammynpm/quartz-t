@@ -4,9 +4,10 @@
     "pageSize": "Letter",
     "landscape": false,
     "margin": "2",
-    "downscalePercent": 100
+    "downscalePercent": 94
   },
   "attachmentFolderPath": "./",
   "propertiesInDocument": "source",
-  "vimMode": false
+  "vimMode": false,
+  "alwaysUpdateLinks": true
 }

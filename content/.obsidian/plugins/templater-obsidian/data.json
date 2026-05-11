@@ -41,6 +41,14 @@
     {
       "folder": "machine-learning",
       "template": "private/templates/template.md"
+    },
+    {
+      "folder": "pentest",
+      "template": "private/templates/template.md"
+    },
+    {
+      "folder": "",
+      "template": ""
     }
   ],
   "enable_file_templates": false,

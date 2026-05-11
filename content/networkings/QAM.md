@@ -5,6 +5,14 @@ draft: true
 date: 2026-03-17
 ---
 
+## def'n
+- a hybrid of phase+ amplitude modulation (AM + FM)
+- has resolutions between 16-QAM and 256-QAM 
+
+- resolution: aka QAM level or modulation order -> # of distinct signal points (bits) are packed into a single wireless or cable transmission symbol aka # points in the constellation 
+- 
+- higher qam levels -> faster, more efficient data throughput 
+
 OFDMA (orthogonal frequency division multiple access)
 
 what is channel 6 in wifi? 

@@ -97,7 +97,7 @@ big thing to be used dpaCiphertext ![[Pasted image 20260424181306.png]]
 after running the python script in ipyton (?) 
 ![[Pasted image 20260424181436.png]] we can see the 
 
-talk about how to do aginst key bytes ![[Pasted image 20260424181746.png]]
+talk about how to do against key bytes ![[Pasted image 20260424181746.png]]
 what is key bytes? 
 ![[Pasted image 20260424181909.png]] the hw is taking this and convert to python 
 what does the vectors nad flows in the dpa results mean: ![[Pasted image 20260424181946.png]]

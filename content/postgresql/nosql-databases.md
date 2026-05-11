@@ -20,3 +20,16 @@ date: 2026-04-25
 | exmaples | mongodb, apache couchdb, firebase firestore                                                                                                                          |                                                                             | redis, amazon dynamodb, memcached                                                                                                                                                      | neo4j, amazon neptune, arangodb                                                                                                                                                         |
 
 
+mongodb:
+- basc unit data: ddocument
+- collection : containers for documents 
+- schema flexible -
+- mongosh
+
+
+when is a nosql >> relational db? 
+- when handling unstructured, dynamic data
+- massive scalability needs
+- rapid devlopment cycles 
+- simpe data retrieval 
+- large-scale performance 

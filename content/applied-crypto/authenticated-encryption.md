@@ -26,3 +26,10 @@ required security: encryption should be IND-CPA security + MAC must be strongly 
 key usage: independent keys for encryption and MAC calculation 
 
 
+
+## INT-CTXT 
+integrity of text 
+
+what the fuck am i supposed to do?
+
+
