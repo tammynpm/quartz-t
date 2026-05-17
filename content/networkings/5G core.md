@@ -1,7 +1,7 @@
 ---
-title: Untitled
+title: 5G core
 tags: []
-draft: true
+draft: false
 date: 2026-03-31
 ---
 - 4g core: control plane components, user plane, tunnneling

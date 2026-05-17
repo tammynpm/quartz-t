@@ -13,4 +13,3 @@ uf-cma unforgeability under chosen message attack =>for MACs => adversary has ac
 int-ctxt integrity of ciphertexts => for authenticated encryption schemes => adversary has access to an encryption oracle, wins if it produces a valid cipheretext that was never output by the encryption oracle. 
 
 
-

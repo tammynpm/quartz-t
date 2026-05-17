@@ -1,7 +1,7 @@
 ---
 title: sdn
 tags: []
-draft: true
+draft: false
 date: 2026-03-24
 ---
 sdn controller = a collection of services that implement netework topology changes in response to system events 
